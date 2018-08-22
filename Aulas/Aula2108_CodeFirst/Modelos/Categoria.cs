@@ -10,6 +10,8 @@ namespace Aula2108_CodeFirst.Modelos
     {
         // chave primaria de tabela, o entity reconhece se usar (escrever) padrão como ID, ou Id ou id ou nome da classe seguida de id
         public int CategoriaID { get; set; }
+
+        [Required]
         public string Nome { get; set; }
         public string Descricao { get; set; }
 
